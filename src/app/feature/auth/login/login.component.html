@@ -1,0 +1,29 @@
+<mat-card class="login-card">
+    <mat-card-header>
+      <mat-card-title>Login</mat-card-title>
+    </mat-card-header>
+    <br>
+    <mat-error *ngIf="state==false">*Account Not Found</mat-error>
+    <form [formGroup]="loginform" (ngSubmit)="onsubmit()">
+        <mat-card-content>
+        <mat-form-field appearance="outline">
+            <mat-label>Username</mat-label>
+            <input matInput placeholder="Enter your username" formControlName="username">
+            <mat-error *ngIf="loginform.controls['username'].hasError('required')">Username is required</mat-error>
+        </mat-form-field>
+    
+        <mat-form-field appearance="outline">
+            <mat-label>Password</mat-label>
+            <input matInput type="password" placeholder="Enter your password" formControlName="password">
+            <mat-error *ngIf="loginform.controls['password'].hasError('minlength')">Atleast 6 characters are required</mat-error>
+
+            <mat-error *ngIf="loginform.controls['password'].hasError('required')">Password is required</mat-error>
+        </mat-form-field>
+        </mat-card-content>
+    
+        <mat-card-actions>
+        <button class="rr" mat-raised-button color="primary" type="submit">Login</button>
+        </mat-card-actions>
+    </form>
+  </mat-card>
+

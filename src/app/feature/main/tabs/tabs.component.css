@@ -1,0 +1,35 @@
+.mat-tab-group {
+    margin-bottom: 48px;
+  }
+
+  .labl{
+    color: black !important;
+  }
+
+  ::ng-deep .mat-mdc-tab .mdc-tab__text-label {
+    color: rgb(51, 50, 50) !important;
+    
+    }
+
+   
+.mat-expansion-panel-header {
+        flex-direction: row-reverse;
+}
+
+.title{
+    margin-left: 15px;
+    margin-top: 3px;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(65, 64, 64);
+}
+.icn{
+    border-radius: 4px;
+background: var(--special-green, #3DBD4A);
+}
+
+.header{
+    background-color: #f1f5f1 !important;
+    margin-bottom: 3px;
+}
+      

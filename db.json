@@ -1,0 +1,205 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "username": "saksham",
+      "password": "1234567",
+      "id": 1
+    }
+  ],
+  "clients":[
+    {
+      "client_name": "John Doe",
+      "gender": "Male",
+      "phone_number": "+1234567890",
+      "email_address": "john.doe@example.com",
+      "marital_status": "Single",
+      "date": "1985-07-15",
+      "status": "Active",
+      "address_line_1": "123 Main Street",
+      "city": "New York"
+    },
+    {
+      "client_name": "Jane Smith",
+      "gender": "Female",
+      "phone_number": "+9876543210",
+      "email_address": "jane.smith@example.com",
+      "marital_status": "Married",
+      "date": "1990-03-25",
+      "status": "Active",
+      "address_line_1": "456 Park Avenue",
+      "city": "Los Angeles"
+    },
+    {
+      "client_name": "Mike Johnson",
+      "gender": "Male",
+      "phone_number": "+1112223333",
+      "email_address": "mike.johnson@example.com",
+      "marital_status": "Divorced",
+      "date": "1978-11-05",
+      "status": "Inactive",
+      "address_line_1": "789 Oak Street",
+      "city": "Chicago"
+    },
+    {
+      "client_name": "Emily Brown",
+      "gender": "Female",
+      "phone_number": "+4445556666",
+      "email_address": "emily.brown@example.com",
+      "marital_status": "Single",
+      "date": "1995-09-10",
+      "status": "Active",
+      "address_line_1": "101 Elm Road",
+      "city": "San Francisco"
+    },
+    {
+      "client_name": "David Lee",
+      "gender": "Male",
+      "phone_number": "+7778889999",
+      "email_address": "david.lee@example.com",
+      "marital_status": "Widowed",
+      "date": "1963-02-20",
+      "status": "Active",
+      "address_line_1": "222 Pine Lane",
+      "city": "Seattle"
+    },
+    {
+      "client_name": "Sarah Williams",
+      "gender": "Female",
+      "phone_number": "+5554443333",
+      "email_address": "sarah.williams@example.com",
+      "marital_status": "Married",
+      "date": "1982-09-02",
+      "status": "Active",
+      "address_line_1": "321 Elm Street",
+      "city": "Miami"
+    },
+    {
+      "client_name": "Michael Brown",
+      "gender": "Male",
+      "phone_number": "+7776665555",
+      "email_address": "michael.brown@example.com",
+      "marital_status": "Single",
+      "date": "1992-12-12",
+      "status": "Active",
+      "address_line_1": "444 Oak Avenue",
+      "city": "Dallas"
+    },
+    {
+      "client_name": "Jennifer Lopez",
+      "gender": "Female",
+      "phone_number": "+2223334444",
+      "email_address": "jennifer.lopez@example.com",
+      "marital_status": "Divorced",
+      "date": "1975-06-30",
+      "status": "Inactive",
+      "address_line_1": "555 Maple Road",
+      "city": "Houston"
+    },
+    {
+      "client_name": "Robert Smith",
+      "gender": "Male",
+      "phone_number": "+123456789",
+      "email_address": "robert.smith@example.com",
+      "marital_status": "Widowed",
+      "date": "1959-11-22",
+      "status": "Active",
+      "address_line_1": "999 Birch Lane",
+      "city": "Phoenix"
+    },
+    {
+      "client_name": "Jessica Miller",
+      "gender": "Female",
+      "phone_number": "+9998887777",
+      "email_address": "jessica.miller@example.com",
+      "marital_status": "Single",
+      "date": "1988-04-18",
+      "status": "Active",
+      "address_line_1": "777 Cedar Street",
+      "city": "Washington, D.C."
+    },
+    {
+      "client_name": "William Johnson",
+      "gender": "Male",
+      "phone_number": "+3334445555",
+      "email_address": "william.johnson@example.com",
+      "marital_status": "Married",
+      "date": "1980-01-05",
+      "status": "Active",
+      "address_line_1": "888 Elm Lane",
+      "city": "Boston"
+    },
+    {
+      "client_name": "Amanda Davis",
+      "gender": "Female",
+      "phone_number": "+7771112222",
+      "email_address": "amanda.davis@example.com",
+      "marital_status": "Divorced",
+      "date": "1973-07-09",
+      "status": "Inactive",
+      "address_line_1": "333 Oak Road",
+      "city": "Atlanta"
+    },
+    {
+      "client_name": "Richard Wilson",
+      "gender": "Male",
+      "phone_number": "+9995556666",
+      "email_address": "richard.wilson@example.com",
+      "marital_status": "Single",
+      "date": "1998-10-31",
+      "status": "Active",
+      "address_line_1": "222 Maple Avenue",
+      "city": "Denver"
+    },
+    {
+      "client_name": "Melissa Anderson",
+      "gender": "Female",
+      "phone_number": "+1112223333",
+      "email_address": "melissa.anderson@example.com",
+      "marital_status": "Married",
+      "date": "1979-12-24",
+      "status": "Active",
+      "address_line_1": "777 Birch Road",
+      "city": "San Diego"
+    },
+    {
+      "client_name": "Daniel Martin",
+      "gender": "Male",
+      "phone_number": "+4445556666",
+      "email_address": "daniel.martin@example.com",
+      "marital_status": "Single",
+      "date": "1993-03-15",
+      "status": "Active",
+      "address_line_1": "444 Cedar Lane",
+      "city": "San Antonio"
+    },
+    {
+      "client_name": "Laura Martinez",
+      "gender": "Female",
+      "phone_number": "+8887776666",
+      "email_address": "laura.martinez@example.com",
+      "marital_status": "Widowed",
+      "date": "1967-08-28",
+      "status": "Active",
+      "address_line_1": "666 Elm Street",
+      "city": "Philadelphia"
+    }
+  ]
+  
+}
