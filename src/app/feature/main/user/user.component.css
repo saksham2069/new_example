@@ -124,7 +124,7 @@ table {
 }
 
 td, th {
-  width: 25%;
+  width: 11%;
 }
 .body{
   max-width: 1590px;
@@ -232,6 +232,15 @@ font-weight: 400;
 line-height: 130%; /* 15.6px */
 }
 
+
+::ng-deep .custom-date-column {
+  flex: 0 0 150px !important; 
+  max-width: 150px !important;
+}
+
+.mdc-data-table__cell, .mdc-data-table__header-cell {
+  padding: 0 13px 0 6px;
+}
 
 
 

@@ -10,7 +10,6 @@ import { MatButtonModule } from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import {MatSelectModule} from '@angular/material/select';
-
 import {MatInputModule} from '@angular/material/input';
 import {MatCardModule} from '@angular/material/card';
 import {MatDatepickerModule} from '@angular/material/datepicker';
@@ -24,22 +23,15 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatExpansionModule} from '@angular/material/expansion';
 import { TabsComponent } from './tabs/tabs.component';
 import {MatTabsModule} from '@angular/material/tabs';
-
-
-
-
-
-
-
-
-
-
+import { EmpipePipe } from './empipe.pipe';
 
 @NgModule({
   declarations: [
     MainComponent,
     UserComponent,
-    TabsComponent
+    TabsComponent,
+    EmpipePipe
+   
   
   ],
   imports: [
